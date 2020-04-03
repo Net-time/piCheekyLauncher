@@ -20,15 +20,15 @@ Next I downloaded and tried to install about 4 versions of linux software. None 
 
 
 The closest to work was codedance/retaliation.py version for Python 2, just changed the “original” vendor and id to mine and it worked 
-Besides up/down being reversed and fire never stopped.
-Noted that the limit switches are soft coded so added that to the code, just a check before command yet, not during.
+Besides up/down being reversed and fire never stopped. Used codedance/retaliation.py (Thanks!) as a base for this script.
+Noted that the limit switches are soft coded so added that to the code.
 Used freeusbanalyzer to check which switch does what.
 Changed code to use valve switch instead of just a timed fire sequence.
 
 
 Todo\:
-- [ ] Learn md Markup
-- [ ] Change directional commands to use limit switches in real time.
-- [ ] Push my commits to GitHub
-- [ ] Center command.
+- [x] Change directional commands to use limit switches in real time.
+- [x] Center command.
+- [x] initial upload
+- [ ] dual cannon support
 
